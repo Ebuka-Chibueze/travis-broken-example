@@ -9,3 +9,5 @@ script:
     - echo "Travis branch is $TRAVIS_BRANCH"
     - echo "Travis branch is in pull request $TRAVIS_PULL+REQUEST"
   #  - mvn clean install -P "guice"
+  Exit /B 5 
+  #hopefully stop neverending script
